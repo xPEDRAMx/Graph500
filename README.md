@@ -2,7 +2,7 @@ Graph500 Benchmark / Python
 
 Implementation of the Breadth-First Search (BFS) algorithm, and evaluation against the Graph500 reference code [1].
 
-Enhanced BFS:
+    Enhanced BFS:
 
 SCALE: 11
 
@@ -25,7 +25,7 @@ bfs_mean_time: 1.91424265503883362e-02
 bfs_stddev_time: 6.72841580446558330e-03
 
 
-Reference BFS:
+    Reference BFS:
 
 SCALE: 11
 
