@@ -95,6 +95,9 @@ def output(SCALE, NBFS, NSSSP, kernel_1_time, kernel_2_time, kernel_2_nedge):
     print("bfs_max_time: %20.17e" % np.percentile(kernel_2_time, 100))
     print("bfs_mean_time: %20.17e" % np.mean(kernel_2_time))
     print("bfs_stddev_time: %20.17e\n" % np.std(kernel_2_time))
+    
+    TEPS = kernel_2_nedge / kernel_2_time
+    print("TEPS: %20.17e" % np.mean(TEPS))
 
 # Example usage:
 SCALE = 11
